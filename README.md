@@ -11,6 +11,7 @@ This project tackles video content moderation by breaking a video down into indi
 | Category | Tools / Models |
 |---|---|
 | Language | Python |
+| Format | Jupyter Notebook (`.ipynb`) |
 | Frame Extraction | Python video/image processing libraries (e.g. OpenCV) |
 | Model Hosting | Hugging Face |
 | LLMs Used | Gemini, Mistral (final models used after experimentation) |
@@ -32,7 +33,7 @@ This project tackles video content moderation by breaking a video down into indi
 ```bash
 git clone https://github.com/MiruthyanJayanS/Video_Classifier.git
 cd Video_Classifier
-pip install -r requirements.txt
+pip install -r requirements.txt jupyter
 ```
 
 ### Configuration
@@ -40,9 +41,9 @@ Set up the required API keys/credentials for the LLMs used (Gemini, Mistral, Hug
 
 ### Running
 ```bash
-python main.py
+jupyter notebook
 ```
-> Replace `main.py` with the actual entry-point filename used in the project.
+Then open the `.ipynb` file and run the cells in order.
 
 ## 🧪 Experimentation Note
 
